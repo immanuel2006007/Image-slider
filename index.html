@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url('srcas\ aa.jpeg');">
+                <div class="content">
+                    <div class="name">sri ramakrishna college of arts and science</div>
+                    <div class="des">Sri Ramakrishna College of Arts and Science is a College of Arts and Science in Coimbatore, Tamil Nadu, India. It was founded in 1987. At present, with 6500+ students, the college is offering 30+ programmes in Arts, Humanities, Science, Commerce and Management domains. The college of Accredited by NAAC with A+ grade. "</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('hicas.avif');">
+                <div class="content">
+                    <div class="name">Hindusthan College of Arts and Science</div>
+                    <div class="des">Hindusthan College of Arts & Science (HICAS) is an educational institution located in Coimbatore, Tamil Nadu, India. Established in 1998 by the Hindusthan Educational and Charitable Trust (HECT), it is an autonomous college affiliated with Bharathiar University.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('psgr.jpg');">
+                <div class="content">
+                    <div class="name">PSGR Krishnammal College for Women</div>
+                    <div class="des">PSGR Krishnammal College for Women, is an autonomous arts and science college located in Coimbatore, Tamil Nadu. India. It has been recognized as the 'College of Excellence' by the University Grants Commission The college is ranked 7th among colleges in India by the National Institutional Ranking Framework (NIRF) in 2024.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('kg.jpeg');">
+                <div class="content">
+                    <div class="name">kg college of arts and science</div>
+                    <div class="des">The KG College of Arts and Science, in Saravanampatti, Coimbatore, India, was founded in 2005 at Coimbatore, India. It is sponsored by KG Information Systems through the KGiSL Trust..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('rathinam.jpeg');">
+                <div class="content">
+                    <div class="name">Rathinam College of Arts and Science </div>
+                    <div class="des">Rathinam College of Arts and Science is a co-educational institution situated within the Rathinam Techzone Campus at Pollachi Main road, Eachanari, Coimbatore, India. It is affiliated to Bharathiar University and recognized by University Grants Commission (UGC). The college was established in 2001 by Rathinam Arumugam Research and Education Foundation.</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('ngp.jpg');">
+                <div class="content">
+                    <div class="name">Dr.N.G.P. Arts and Science College</div>
+                    <div class="des">Dr.N.G.P Arts and Science College was established by the Dr NGP Research and Educational Trust (Formerly Kovai Medical Center Research and Educational Trust) Coimbatore in 1997. The college incepted its educational journey with 4 Under Graduate Programmes and today it is emerged as one of the major academies in self-financing institutions in Tamil Nadu, India. The college conferred with the autonomous status in 2015-2016 by the UGC and is affiliated to Bharathiar University, Coimbatore. The College was accredited by the NAAC with ‘A++’ Grade in the Third cycle and ranked no. 75 by NIRF..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-name">Character Name</h2>
+            <p id="modal-description">Character description...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
